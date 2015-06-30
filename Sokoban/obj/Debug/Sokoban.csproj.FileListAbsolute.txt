@@ -30,3 +30,6 @@ C:\Users\Snowwhite\Dropbox\GROEP H\Blok 2\NonProject\Thijs en Ivan\Sokoban\Sokob
 C:\Users\Snowwhite\Dropbox\GROEP H\Blok 2\NonProject\Thijs en Ivan\Sokoban\Sokoban\obj\Debug\Sokoban.csproj.GenerateResource.Cache
 C:\Users\Snowwhite\Dropbox\GROEP H\Blok 2\NonProject\Thijs en Ivan\Sokoban\Sokoban\obj\Debug\MainWindow.baml
 C:\Users\Snowwhite\Dropbox\GROEP H\Blok 2\NonProject\Thijs en Ivan\Sokoban\Sokoban\obj\Debug\MainWindow.g.cs
+C:\Users\Thijs\Documents\GitHub\Sokoban\Sokoban\bin\Debug\Sokoban.exe.config
+C:\Users\Thijs\Documents\GitHub\Sokoban\Sokoban\obj\Debug\Sokoban.exe
+C:\Users\Thijs\Documents\GitHub\Sokoban\Sokoban\obj\Debug\Sokoban.pdb

@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="69001c63-d391-4524-b66e-a66e2844727e" name="UMLClassDiagram1" linkedPackageId="e0585368-c5c0-474d-b092-8b83b6895268" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ea634adc-8989-452f-af78-9d0c7eca2bce" name="Doolhof" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="791f81be-a970-4aa3-a02a-f1aeb38204ec" />
+        <targetEnds>
+          <association Id="f2e4a77f-09d9-4252-8b33-53293c591c64" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f7a008c9-134c-4f8d-9718-7669627aeb30" LastKnownName="Vakje" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eca5e00d-90cc-4a11-a67f-fe5b5cf6fa06" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aa6903be-363d-45b3-9c75-5142962a8080" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e87f2254-faed-48f8-8bf8-b8215a1aad02" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="98f4718e-c2c0-430f-8eb5-e780b31bd0ac" name="Lower" value="1">
+                      <elementDefinition Id="83641366-4baa-4778-aebd-2d1ee4778ac6" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="c06cb4d3-2e41-445a-9824-845d9a52dd13" name="Upper" value="*">
+                      <elementDefinition Id="856516cd-381c-42d9-9801-4e63944319f8" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="cb350ef7-f26f-4405-b76c-9cc73c008c72" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dd9f6a9e-94b6-42c9-9b26-5560b0c8c621" />
+          </association>
+          <association Id="9f718c29-c58f-457e-ab7e-77d3a2c34a1d" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="bba8f2d6-587b-4e2b-af31-a1110aecc239" LastKnownName="Truck" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9dfc49c7-5efd-4c5d-beb7-9b2019009603" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1592c3f3-cdd9-4619-a49a-c715f5995609" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="830e54b4-cbbc-4efb-8fa4-543e5a61dfd0" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="662a9a69-2f68-4d8b-9b44-631f967d96a9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9c5a6e1e-88ec-458d-9e6f-4fe7421242d9" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="9bb568d0-6c92-42ce-b7df-bf3eaaa25dc7" name="speler" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="671e00cb-fea1-4da3-b3fa-dbe7747bb1f7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6d2dfb7b-9b4b-4fbe-93b1-bf03c3ec47ac" LastKnownName="Truck" />
+            </type_NamedElement>
+          </property>
+          <property Id="5dd2a2d0-37c4-4334-b8ea-a10261aefaff" name="finish" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1b2e5322-5746-4422-89e5-880c5d87cc6e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="89b17d07-18e3-4931-a725-184016dbd42f" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="482bff8e-5d3d-4359-8f87-e30d865fd106" name="aantalStappen" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b62b8d69-70fa-4b5c-b530-272e61f8d57c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="69a5e172-e056-48db-87a4-8025514010ed" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="04aa7e98-7850-40af-9040-9006cefffb0e" name="BouwDoolhof" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a73976a5-d7f3-4235-81e6-2c28aabeec14" />
+          </operation>
+          <operation Id="3c1ab86f-1da9-406a-aa15-9c0c70b85e09" name="setNeighbours" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7ff3457f-6d0c-4aff-b18e-60715ddd3580" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="eed49627-94c5-432a-a288-3738347eab6d" name="Krat" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ecb8cbf7-5c57-478a-b658-faa7fcc69fc3" />
+        <ownedOperationsInternal>
+          <operation Id="64bb077d-31a4-4647-9529-3d3c7dd1b49e" name="Move" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ed3aab48-bbcb-4fb5-927c-76b8ede1a177" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b0db5e35-9206-4397-8b66-ff82c72c8989" name="Richting r" direction="In" isUnique="false">
+                  <elementDefinition Id="4977e65b-08cf-44ce-8afb-76665bb34993" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bba8f2d6-587b-4e2b-af31-a1110aecc239" name="Truck" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="19575149-cd5a-43fa-bee7-4273f33f1b19" />
+        <targetEnds>
+          <association Id="1a69cca5-a7bd-4f18-9e56-8860961e1389" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f7a008c9-134c-4f8d-9718-7669627aeb30" LastKnownName="Vakje" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="19f7b9f9-ebd7-47a4-930c-b8c5fbc29c39" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a92390b8-2af8-4053-b387-86fccaf6829c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5ff17e59-d5fb-4b01-bc21-fe4bcd6ffa50" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f3bfd88f-8c6f-427d-b17d-e9b723d1809e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="976ff267-f55b-43cb-87e4-494c8c366faf" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="b7d3503c-d7fd-48b4-ab7b-a6258b8fae50" name="Move" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="790a0e42-85a3-4552-bc91-25b9a74f68bf" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="39bcad60-7356-42ec-9924-92704983ec66" name="Richting r" direction="In" isUnique="false">
+                  <elementDefinition Id="9e1deea9-e0aa-428f-a269-98149fcfa7a3" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="81e95b6c-95f3-4eb9-a518-1feedf8aafa6" name="SetVakje" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bb546a31-b7fd-4d29-8d17-7e4210420abb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c32a0107-9acf-4c0d-96a1-b87f76bab04a" name="Vakje v" direction="In" isUnique="false">
+                  <elementDefinition Id="ade56397-2e2e-4bb7-82a9-4651a4956b9c" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="f0cb9933-e6cb-481a-9ef8-f4f602904cc9" name="Richting" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9e5ca581-f129-4fff-a3ae-ac3410471498" />
+        <ownedLiterals>
+          <enumerationLiteral Id="d098f7a7-8e8b-454a-a2e6-1b8b67b4a5ef" name="naar_boven">
+            <elementDefinition Id="9dca0904-a972-409f-b38f-a3bba754f433" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="f8117479-b555-469c-b4d8-9b376937adec" name="naar_onder">
+            <elementDefinition Id="e3d98ef2-8696-4439-9537-c3c3ee4aad25" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="a7c4b263-9912-4b27-93f2-127a7fb13bd1" name="naar_rechts">
+            <elementDefinition Id="c14b5f59-b5f3-4d31-86a6-92f8a25ce86f" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="a0b8b486-283d-475a-a3bd-a1dfca43b9bf" name="naar_links">
+            <elementDefinition Id="a65695a0-5004-4ce6-835e-a5969c2c04f8" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="4dbf3e53-fb29-47a9-aad0-443ecc817e28" name="Soort" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4744fe83-7c89-4a47-befb-50f1413b4e11" />
+        <ownedLiterals>
+          <enumerationLiteral Id="ff38269a-1d80-450f-96a8-032972b99167" name="vloer">
+            <elementDefinition Id="bfba8963-7833-49d1-a061-b9b3f4c8b195" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="f7ef6565-5e3f-4d2d-8077-c7b3d8b727be" name="muur">
+            <elementDefinition Id="10fabcf5-2a58-41ee-a227-f71d321deecc" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="54014582-09ee-4a58-ba1c-1634f1ba21a3" name="doel">
+            <elementDefinition Id="6e51117c-52c8-4e1c-a841-02350711a300" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="d632d9c5-f01b-4014-bf8c-b847075b04e0" name="space">
+            <elementDefinition Id="9b3168a3-914d-4f7c-83d7-55e6d5efe7da" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f7a008c9-134c-4f8d-9718-7669627aeb30" name="Vakje" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6b878771-96ae-4e45-bd37-122ea1f3444c" />
+        <targetEnds>
+          <association Id="cfafc38c-dcb7-49af-80b2-bc911d8f98d0" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="f0cb9933-e6cb-481a-9ef8-f4f602904cc9" LastKnownName="Richting" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5679f26d-3fa9-466e-ab93-e6e60ba98b78" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9ffee438-c3af-4b9b-a666-16c54bab0d19" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bccf5f86-9ea4-4eeb-9e9e-27cc1905391b" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="3f33317e-4c4b-4d53-8b9a-0e9ff51d7c64" name="Lower" value="0">
+                      <elementDefinition Id="96be25f5-31da-4533-a864-6748042f9bd5" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="92ab0217-253e-47b4-82bd-d29868550e2a" name="Upper" value="4">
+                      <elementDefinition Id="5f7201f5-75dc-433d-91c4-0ba051e69268" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="a08744f5-989f-47e1-a482-b354c7112ef7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2f71a29d-5e38-4cb9-bb2f-40fe567b5779" />
+          </association>
+          <association Id="121a1d71-bb41-41e2-898c-53e5f7f6d239" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="4dbf3e53-fb29-47a9-aad0-443ecc817e28" LastKnownName="Soort" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0a15fd4d-8ca1-457c-8731-309c85629fc8" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5481ea36-797e-4358-a460-9e6a532b6d7f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9344ed0-883f-4053-960a-ccf5ffc4fd94" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d98c7305-2d18-4847-bbb2-d1c40cef3104" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a0186b19-5b76-450a-a8f7-ac9ab35b4f7f" />
+          </association>
+          <association Id="f56d5d34-f417-4a50-adfd-be621dfa0a22" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="eed49627-94c5-432a-a288-3738347eab6d" LastKnownName="Krat" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="09619c3b-73af-4b31-946d-bc2345d996c5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d589649d-d5d0-4257-9029-6feb44af54c6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="01c2dcfb-000c-493d-b31b-1264999a6e3b" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="d17d9e15-0884-40de-9a99-5322098c96fa" name="Lower" value="0">
+                      <elementDefinition Id="b8d71936-6427-4b7e-8674-85c615e9b41c" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="8c4ebc1a-657d-46c6-923b-54e13f76cdca" name="Upper" value="1">
+                      <elementDefinition Id="bbb90c90-f103-4e1a-8111-6b5eb3dc9ca5" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="3cec58ff-eb1f-44cf-8451-6b86e68aad33" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9bd243cb-b211-4ec6-9076-6069bf9c9968" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="d538a436-aba9-42bd-963b-1c0295be37cd" name="positie" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <lowerValueInternal>
+              <literalString Id="6e6f6079-24a8-4c22-8e26-be65a9640031" name="Lower" value="1">
+                <elementDefinition Id="39abc1ed-49de-4e2d-ae74-2143f067ac38" />
+              </literalString>
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString Id="c5ab7907-4f3d-497b-9850-3abf4385ccb8" name="Upper" value="1">
+                <elementDefinition Id="23fc4c62-6ad3-4b87-8648-6c1bc2c98fb9" />
+              </literalString>
+            </upperValueInternal>
+            <elementDefinition Id="eaf12f71-4c0b-4203-9566-335c568c5f05" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1344f5f5-30ac-488c-b616-e275b4ce1e03" LastKnownName="&lt;Richting, Vakje&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="499de94d-b2c3-4348-a5e6-87764ff9dcef" name="soort" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5166b339-a6ef-428e-95f2-d132ab40acf8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="daf09c56-e78d-4ab8-97c1-02f234ec8f93" LastKnownName="Soort" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="6da50c12-b4b4-4ddb-a9a3-ba52849e2bb7" name="canMoveHere" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5e1b2572-d9cb-44fc-836f-da93258a0700" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a368de5c-5839-468c-add7-8bd51d13cda2" name="Richting r" direction="In" isUnique="false">
+                  <elementDefinition Id="967d1d6a-9884-4b57-86d4-cc8950a39200" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d344cde7-0bbe-41b3-84f6-62d3b7167053" name="GetNeighbour" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2880faab-b588-4a08-afdf-c72da37113a8" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="36c5c7b0-4651-4f21-9b95-e82c4cbde8be" name="Richting r" direction="In" isUnique="false">
+                  <elementDefinition Id="da33cda4-998a-4d05-ad78-410df9fdf68d" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7b31f9fd-b071-457e-b05c-be1b345e01c4" name="HasKrat" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="03f1c619-e189-4d25-8c70-9fd55da9b21b" />
+          </operation>
+          <operation Id="97d59394-112a-4424-a718-4bc59b8de5cc" name="setNeighbour" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d5fe07eb-f933-468a-a42c-ef061200d09e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="daf09c56-e78d-4ab8-97c1-02f234ec8f93" name="Soort" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::Soort">
+        <elementDefinition Id="4744fe83-7c89-4a47-befb-50f1413b4e11" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6d2dfb7b-9b4b-4fbe-93b1-bf03c3ec47ac" name="Truck" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::Truck">
+        <elementDefinition Id="19575149-cd5a-43fa-bee7-4273f33f1b19" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="89b17d07-18e3-4931-a725-184016dbd42f" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8697a358-990d-4c47-81e7-356c49593b55" name="Spel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="218bd950-eda9-43f5-bd83-4246c82ddacf" />
+        <targetEnds>
+          <association Id="615e72bc-90b6-45ce-baf1-247bd5b1b6aa" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ea634adc-8989-452f-af78-9d0c7eca2bce" LastKnownName="Doolhof" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d6a55ba8-3af8-488f-8109-b0babb6e8981" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a51bc08c-c604-45f9-8af5-ab02f4c6fcee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ee056a2f-541a-4a0a-b6e9-89d71c68e2a5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="2e7990d4-0ec2-4ec4-a3b2-3b8899c68277" name="Lower" value="1">
+                      <elementDefinition Id="786684cc-a95b-470b-bb6c-445337e36c30" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="aaf60462-22e4-4b05-a515-1575d1e3c255" name="Upper" value="*">
+                      <elementDefinition Id="8b3d3662-8211-4b4a-8436-9080b9e910f9" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="502db51a-53ce-483d-9f27-a9bcb2e6786d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f5245756-2852-40df-97bf-f51ae7d2e432" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="eed5a09d-a5a3-4906-966b-43ee5cde1f0b" name="doolhoven" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <lowerValueInternal>
+              <literalString Id="a8aee0b9-d4d4-41ff-a422-1ea41ed4ad7c" name="Lower" value="1">
+                <elementDefinition Id="24078899-4c94-4fa9-a25a-13398a10d2d2" />
+              </literalString>
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString Id="7b580e4f-bba1-4ff1-b1be-036f4269fc04" name="Upper" value="*">
+                <elementDefinition Id="be4f8c7b-6b16-48a5-8432-7e27971f7281" />
+              </literalString>
+            </upperValueInternal>
+            <elementDefinition Id="fedbe03c-6139-498b-a296-87d7daf0d099" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4e424782-4944-44bf-aa71-fe23b55bb3bc" LastKnownName="Doolhof" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="b08ea64a-dafb-45c5-ae02-771b1aed4f98" name="LaadSpel" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f9f9cc21-da94-4812-a695-a0c26f2afe07" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="4e424782-4944-44bf-aa71-fe23b55bb3bc" name="Doolhof" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::Doolhof">
+        <elementDefinition Id="791f81be-a970-4aa3-a02a-f1aeb38204ec" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="69a5e172-e056-48db-87a4-8025514010ed" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1344f5f5-30ac-488c-b616-e275b4ce1e03" name="&lt;Richting, Vakje&gt;" isAbstract="false" isLeaf="false" cachedFullName="&lt;Richting, Vakje&gt;">
+        <elementDefinition Id="3f6fdcf4-8ffc-4699-b320-2d00b057a072" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e0585368-c5c0-474d-b092-8b83b6895268" name="ModelingProject1">
+    <elementDefinition Id="0882ab73-4a23-457a-9411-96b5725d60f6" />
+    <profileInstances>
+      <packageHasProfileInstances Id="dd040fec-f736-4068-aada-8e3e2ac978a1">
+        <profileInstance Id="4c550809-a392-4821-9962-a0e4e4de113f" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ac101473-9144-4bf1-912d-8b92fba1477e">
+        <profileInstance Id="74bac3df-f30c-4f1d-abf7-06b6d4e2860c" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
